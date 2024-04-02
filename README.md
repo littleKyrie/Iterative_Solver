@@ -24,13 +24,15 @@ and the relevant linear algebra operations are based on [Eigen](https://eigen.tu
 
 ![arma_gra](results/arma_gra.gif)
 
-<p><strong>&bull;</strong> PCG <p>
+### PCG 
 
-  Jacobi Preconditioner: 18 iterations
+compared the effects of different preconditioners on CG convergence: 
 
-  incomplete Cholesky Preconditioner: 5 iterations
-
-  SSOR Preconditioner: 8 iterations
+<p><strong>&bull;</strong> Jacobi Preconditioner: 18 iterations <p>
+  
+<p><strong>&bull;</strong> incomplete Cholesky Preconditioner: 5 iterations <p>
+  
+<p><strong>&bull;</strong> SSOR Preconditioner: 8 iterations <p>  
 
 <p><strong>&bull;</strong> comparison of serial and parallel speed <p>
 
