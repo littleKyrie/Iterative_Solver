@@ -1,4 +1,4 @@
-# Iterative-Linear-Solver-for-Sparse-System
+# Iterative-Solver-for-Sparse-System
 
 ## Introduction
 There are 3 most common linear iterative solvers for solving Sparse Linear Systems: Jacobi、Gauss-Seidel and Preconditioned-Conjugate-Gradient.
