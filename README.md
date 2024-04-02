@@ -21,7 +21,7 @@ and the relevant linear algebra operations are based on [Eigen](https://eigen.tu
 
 ## Results
 
-<p><strong>&bull;</strong> simulation effects (from PCG with incomplete Cholesky as preconditioner) <p>
+<p><strong>&bull;</strong> simulation effects <p>
 
 ![arma_gra](results/arma_gra.gif)
 
@@ -39,15 +39,27 @@ compared the effects of different preconditioners on CG convergence:
 
 <p><strong>&bull;</strong> effects of Chebyshev acceleration <p>
 
-## Gauss-Seidel
-<p><strong>&bull;</strong> simulation effects <p>
+### Gauss-Seidel
 
-<p><strong>&bull;</strong> comparison of serial and parallel speed <p>
+compared the serial and parallel speed with relaxation = 1
 
-## PCG
-<p><strong>&bull;</strong> simulation effects <p>
+<p><strong>&bull;</strong> time of solving system in parallel = 1.1 ms <p> 
 
-<p><strong>&bull;</strong> comparison of different preconditioners <p>
+<p><strong>&bull;</strong> time of serial solving system = 3.5 ms <p>
+
+### Jacobi
+
+compared the serial and parallel speed with relaxation = 0.3
+
+<p><strong>&bull;</strong> time of solving system in parallel = 8 ms <p> 
+
+<p><strong>&bull;</strong> time of solving system in parallel = 50 ms <p> 
+
+compared the effects of chebyshev acceleration 
+
+<p><strong>&bull;</strong> with chebyshev acceleration: 17 iterations <p> 
+
+<p><strong>&bull;</strong> with chebyshev acceleration: 45 iterations <p> 
 
 ## Future Work
-<p><strong>&bull;</strong> continue to improve the overall performance of the code <p> 
+<p><strong>&bull;</strong> construct graphs in parallel to improve the performence of graph generation <p> 
