@@ -1,7 +1,7 @@
 # Iterative-Linear-Solver-for-Sparse-System
 
 ## Introduction
-There are 3 most common linear iterative solvers: Jacobi、Gauss-Seidel and Preconditioned-Conjugate-Gradient.
+There are 3 most common linear iterative solvers for solving Sparse Linear Systems: Jacobi、Gauss-Seidel and Preconditioned-Conjugate-Gradient.
 
 ## Features
 <p><strong>&bull;</strong> serial and parallel implementations of Jacobi solver with Chebyshev acceleration <p> 
@@ -16,8 +16,15 @@ There are 3 most common linear iterative solvers: Jacobi、Gauss-Seidel and Prec
 
 the parallel implementation is based on [oneTBB](https://github.com/oneapi-src/oneTBB)
 
-## Jacobi
+and the relevant linear algebra operations are based on [Eigen](https://eigen.tuxfamily.org/dox/group__TutorialSparse.html)
+
+## Results
+
 <p><strong>&bull;</strong> simulation effects <p>
+
+![arma_gra](results/arma_gra.gif)
+
+Jacobi
 
 <p><strong>&bull;</strong> comparison of serial and parallel speed <p>
 
