@@ -2,6 +2,7 @@
 
 ## Introduction
 There are 3 most common linear iterative solvers for solving Sparse Linear Systems: Jacobi、Gauss-Seidel and Preconditioned-Conjugate-Gradient.
+The test scene is of an armadillo whose ears and hands are fixed and deformed by gravity.
 
 ## Features
 <p><strong>&bull;</strong> serial and parallel implementations of Jacobi solver with Chebyshev acceleration <p> 
