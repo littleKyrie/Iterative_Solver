@@ -59,7 +59,7 @@ compared the effects of chebyshev acceleration
 
 <p><strong>&bull;</strong> with chebyshev acceleration: 17 iterations <p> 
 
-<p><strong>&bull;</strong> with chebyshev acceleration: 45 iterations <p> 
+<p><strong>&bull;</strong> without chebyshev acceleration: 45 iterations <p> 
 
 ## Future Work
 <p><strong>&bull;</strong> construct graphs in parallel to improve the performence of graph generation <p> 
