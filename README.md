@@ -20,7 +20,7 @@ and the relevant linear algebra operations are based on [Eigen](https://eigen.tu
 
 ## Results
 
-<p><strong>&bull;</strong> simulation effects <p>
+<p><strong>&bull;</strong> simulation effects (from PCG with incomplete Cholesky as preconditioner) <p>
 
 ![arma_gra](results/arma_gra.gif)
 
