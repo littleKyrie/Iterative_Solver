@@ -24,7 +24,13 @@ and the relevant linear algebra operations are based on [Eigen](https://eigen.tu
 
 ![arma_gra](results/arma_gra.gif)
 
-Jacobi
+<p><strong>&bull;</strong> PCG <p>
+
+  Jacobi Preconditioner: 18 iterations
+
+  incomplete Cholesky Preconditioner: 5 iterations
+
+  SSOR Preconditioner: 8 iterations
 
 <p><strong>&bull;</strong> comparison of serial and parallel speed <p>
 
