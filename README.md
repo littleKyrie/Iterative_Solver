@@ -35,10 +35,6 @@ compared the effects of different preconditioners on CG convergence:
   
 <p><strong>&bull;</strong> SSOR Preconditioner: 8 iterations <p>  
 
-<p><strong>&bull;</strong> comparison of serial and parallel speed <p>
-
-<p><strong>&bull;</strong> effects of Chebyshev acceleration <p>
-
 ### Gauss-Seidel
 
 compared the serial and parallel speed with relaxation = 1
