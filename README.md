@@ -49,7 +49,7 @@ compared the serial and parallel speed with relaxation = 0.3
 
 <p><strong>&bull;</strong> time of solving system in parallel = 8 ms <p> 
 
-<p><strong>&bull;</strong> time of solving system in parallel = 50 ms <p> 
+<p><strong>&bull;</strong> time of solving system in serial = 50 ms <p> 
 
 compared the effects of chebyshev acceleration 
 
